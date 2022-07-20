@@ -7,6 +7,7 @@ import MyCustomTextWith from './component/MyCustomTextWith';
 import Count from './component/Count';
 import InputText from './component/InputText';
 import UserNameAndPw from './component/UserNameAndPw';
+import UNP from './component/UNP'
 
 export default function App() {
   return (
@@ -17,17 +18,24 @@ export default function App() {
       {/* <MyCustomTextWith/> */}
       {/* <Count/> */}
       {/* <InputText/> */}
-      <UserNameAndPw/>
+      {/* <UserNameAndPw/> */}
+      <UNP/>
 
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent : 'center',
-    alignItems : 'center'
-  }
-})
+    container: {
+      flex: 1,
+      padding: 35,
+    },
+    textInputStyle: {
+      width: '100%',
+      height: 40,
+      paddingHorizontal: 5,
+      borderWidth: 0.5,
+      marginTop: 15,
+    },
+});
 
