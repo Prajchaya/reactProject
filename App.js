@@ -7,7 +7,11 @@ import MyCustomTextWith from './component/MyCustomTextWith';
 import Count from './component/Count';
 import InputText from './component/InputText';
 import UserNameAndPw from './component/UserNameAndPw';
-import UNP from './component/UNP'
+import UserNamePassword from './component/UserNamePassword';
+import AlertComponent from './component/AlertComponent'
+import ImageWithTextInput from './component/ImageWithTextInput';
+import buttonExample from './component/buttonExample';
+import Touchable_Example from './component/Touchable_Example';
 
 export default function App() {
   return (
@@ -19,7 +23,11 @@ export default function App() {
       {/* <Count/> */}
       {/* <InputText/> */}
       {/* <UserNameAndPw/> */}
-      <UNP/>
+      {/* <UserNamePassword/> */}
+      {/* <AlertComponent/> */}
+      {/* <ImageWithTextInput/> */}
+      {/* <buttonExample/> */}
+      <Touchable_Example/>
 
     </View>
   );
@@ -27,15 +35,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      padding: 35,
-    },
-    textInputStyle: {
-      width: '100%',
-      height: 40,
-      paddingHorizontal: 5,
-      borderWidth: 0.5,
-      marginTop: 15,
-    },
+      flex: 1
+    }
 });
 
