@@ -1,17 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button } from 'react-native';
-import User from './component/User';
-import Logo from './component/Logo'
-import LotsOfGreeting from './component/LotsOfGreeting';
-import MyCustomTextWith from './component/MyCustomTextWith';
-import Count from './component/Count';
-import InputText from './component/InputText';
-import UserNameAndPw from './component/UserNameAndPw';
-import UserNamePassword from './component/UserNamePassword';
-import AlertComponent from './component/AlertComponent'
-import ImageWithTextInput from './component/ImageWithTextInput';
-import buttonExample from './component/buttonExample';
-import Touchable_Example from './component/Touchable_Example';
+import TouchablePractice from './component/TouchablePractice';
 
 export default function App() {
   return (
@@ -27,7 +15,8 @@ export default function App() {
       {/* <AlertComponent/> */}
       {/* <ImageWithTextInput/> */}
       {/* <buttonExample/> */}
-      <Touchable_Example/>
+      {/* <Touchable_Example/> */}
+      <TouchablePractice/>
 
     </View>
   );
